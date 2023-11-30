@@ -3,6 +3,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+html,body{
+    /* height: 100%;
+    width: 100%; */
+    overflow-x: hidden;
+}
 header{
     margin: 0;
     display: flex;
@@ -45,13 +50,12 @@ header div ul{
     width: 700px;
     margin-bottom: 30px;
 }
-#spider{
-    margin-right: 20px;
-    margin-left: 40px;
+.spider-div #spider{
+    display: flex;
 }
 .navbar .link #logo{
     margin-right: 600px;
-    margin-left: 10%;
+    margin-left: 5%;
     border-radius: 50%;
 }
 #heading{
