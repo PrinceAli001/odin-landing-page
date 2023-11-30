@@ -30,7 +30,6 @@ header div ul li a{
 header div ul{
     /* border: 3px solid red;  */
     display: flex;
-    /* padding: 30px ; */
     padding-left: 0;
     gap: 30px;
     margin: 20px 20px 90px 20px;
@@ -52,7 +51,7 @@ header div ul{
 }
 .navbar .link #logo{
     margin-right: 600px;
-    margin-left: 100px;
+    margin-left: 10%;
     border-radius: 50%;
 }
 #heading{
@@ -145,7 +144,7 @@ h1{
     width: 800px;
     height: 207px;
     /* border: 3px solid red; */
-    margin: 70px 70px 30px 70px ;
+    margin: 5%;
 }
 #thor{
     display: flex;
@@ -154,6 +153,9 @@ h1{
     font-size: 25px;
     font-weight: 800;
     
+}
+video{
+    margin-top: 5%;
 }
 .last-div{
     height: 450px;
@@ -172,13 +174,15 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 25px;
-    padding: 10px 100px;
+    gap: 10px;
+    padding: 10px 20px;
 }
 .words-of-last-div{
     /* border: 3px solid red; */
     height: fit-content;
     color: #E5E7EB;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 .first-p{
     font-size: 32px;
@@ -190,7 +194,8 @@ h1{
 }
 #last-button{
     border-color: black;
-
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 main{
     background-image: url(images/background1.jpg);
